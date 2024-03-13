@@ -14,7 +14,7 @@ class Farm implements FarmInterface
         return $this->animals;
     }
 
-    public function setAnimals($animals): self
+    public function setAnimals(array $animals): self
     {
         $this->animals = $animals;
         return $this;
@@ -25,7 +25,7 @@ class Farm implements FarmInterface
         return $this->products;
     }
 
-    public function setProducts($products): self
+    public function setProducts(array $products): self
     {
         $this->products = $products;
         return $this;

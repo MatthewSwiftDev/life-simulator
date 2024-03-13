@@ -9,7 +9,7 @@ abstract class AbstractProduct implements ProductInterface
     protected string $typeOfProduct;
     protected int $quantityOfProduction;
 
-    public function setTypeOfProduct($typeOfProduct): self
+    public function setTypeOfProduct(string $typeOfProduct): self
     {
         $this->typeOfProduct = $typeOfProduct;
         return $this;
@@ -20,7 +20,7 @@ abstract class AbstractProduct implements ProductInterface
         return $this->typeOfProduct;
     }
 
-    public function setQuantityOfProduction($quantityOfProduction): self
+    public function setQuantityOfProduction(int $quantityOfProduction): self
     {
         $this->quantityOfProduction = $quantityOfProduction;
         return $this;

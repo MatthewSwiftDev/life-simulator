@@ -16,7 +16,7 @@ abstract class AbstractAnimal implements AnimalInterface
         return $this->id;
     }
 
-    public function setId($id): self
+    public function setId(int $id): self
     {
         $this->id = $id;
         return $id;
@@ -27,7 +27,7 @@ abstract class AbstractAnimal implements AnimalInterface
         return $this->type;
     }
 
-    public function setType($type): self
+    public function setType(string $type): self
     {
         $this->type = $type;
         return $this;
@@ -38,7 +38,7 @@ abstract class AbstractAnimal implements AnimalInterface
         return $this->typeOfProduct;
     }
 
-    public function setTypeOfProduct($typeOfProduct): self
+    public function setTypeOfProduct(string $typeOfProduct): self
     {
         $this->typeOfProduct = $typeOfProduct;
         return $this;
@@ -49,7 +49,7 @@ abstract class AbstractAnimal implements AnimalInterface
         return $this->productivityPerDay;
     }
 
-    public function setProductivityPerDay($productivityPerDay): self
+    public function setProductivityPerDay(int $productivityPerDay): self
     {
         $this->productivityPerDay = $productivityPerDay;
         return $this;

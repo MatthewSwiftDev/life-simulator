@@ -16,7 +16,7 @@ class ProductService implements ProductServiceInterface
         $this->productFactory = $productFactory;
     }
 
-    public function collectProductsFromAnimals($animals): array
+    public function collectProductsFromAnimals(array $animals): array
     {
         $products = [];
 
