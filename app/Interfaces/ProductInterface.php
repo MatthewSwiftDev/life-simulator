@@ -10,9 +10,9 @@ interface ProductInterface
 
     public function getTypeOfProduct(): string;
 
-    public function setTypeOfProduct($typeOfProduct): self;
+    public function setTypeOfProduct(string $typeOfProduct): self;
 
     public function getQuantityOfProduction(): int;
 
-    public function setQuantityOfProduction($quantityOfProduction): self;
+    public function setQuantityOfProduction(int $quantityOfProduction): self;
 }

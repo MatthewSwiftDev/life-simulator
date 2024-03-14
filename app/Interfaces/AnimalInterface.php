@@ -9,17 +9,17 @@ interface AnimalInterface
 
     public function getId(): string;
 
-    public function setId($id): self;
+    public function setId(int $id): self;
 
     public function getType(): string;
 
-    public function setType($type): self;
+    public function setType(string $type): self;
 
     public function getTypeOfProduct(): string;
 
-    public function setTypeOfProduct($typeOfProduct): self;
+    public function setTypeOfProduct(string $typeOfProduct): self;
 
     public function getProductivityPerDay(): int;
 
-    public function setProductivityPerDay($productivityPerDay): self;
+    public function setProductivityPerDay(int $productivityPerDay): self;
 }

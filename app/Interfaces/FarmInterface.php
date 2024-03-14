@@ -6,9 +6,9 @@ interface FarmInterface
 {
     public function getAnimals(): array;
 
-    public function setAnimals($animals): self;
+    public function setAnimals(array $animals): self;
 
     public function getProducts(): array;
 
-    public function setProducts($products): self;
+    public function setProducts(array $products): self;
 }
